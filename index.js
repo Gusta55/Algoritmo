@@ -94,9 +94,23 @@ console.log("Valor com 15% de desconto ", valorComDesconto)
 
 //Conversor de medidas
 
-const libra = prompt("Digite quantas libras: ");
+const libra = 1;
 const lbParaKg = libra / 0.454; //lb para kg
-console.log("A conversão de lb para kg é:", lbParaKg);
-const onça = prompt("Digite quantos oz: ");
-const ozParaKg = onça * 0.0283495; //oz para kg
-console.log("A conversão de oz para kg é: ", ozParaKg);
+console.log("A conversão de lb para kg é:", lbParaKg);//resultado de 20lb para 44.052863
+const onça = 10.5;
+const ozParaKg = onça / 35.274; //oz para kg
+console.log("A conversão de oz para kg é: ", ozParaKg);//resultado de 10.5 oz para 0.2976696
+const milha = 100;
+const miParaM = milha * 1609;//milha para metro
+console.log("a conversão de milhas para metros é: ", miParaM);//resultado de 100mi para 160900
+const ft = 50;
+const ftParaM = ft / 3.281;//pés para metro
+console.log("A conversão de pés para metros é: ", ftParaM);//resultado de 50ft para 15.239256
+const gal = 103.56;
+const galParaL = gal * 3.785;//galões para litro
+console.log("A conversão de galões para litro é: ", galParaL);//resultado de 103.56gal para 391.9746
+const xicara = prompt("Digite quantas xicaras: ");
+const xicParaLitro = xicara * 0.24;//xicara para litros
+console.log("A convesão de xicaras para litros é: ", xicParaLitro);//resultado de 450xic para 108
+
+
